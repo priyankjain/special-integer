@@ -1,0 +1,16 @@
+Linked List Random JAVA INTEGERS
+
+Write a program that will insert random java integers into a LinkedList and perform some calculations using methods in the LinkedList class.  
+
+First, define a class definition for a java integer.  A java integer has an integer field for the original order it was created and an integer field for a random number.  It will have a constructor that initializes both fields to argument values sent to it.  It will have separate get methods for the two integer fields.  It will be “is a” Comparable and will override the abstract method and will compare java integers by the value in the random integer field.
+
+Second, create a main class.  You will prompt the user to ask them the number of java integer nodes in your linked list.  You will then use a loop to get (for each node) a random number between 1 and 150, create a java integer object, and put it in the linked list.  
+
+You will then sort the random java integers in your linked list.  This will rearrange the java integers, but each will retain its original order data field integer.  You will then use a list iterator to traverse the linked list to print out the index number, the original order integer field, and the random integer number field for each of the nodes.  Use centered column headings for the three fields, and use field widths to line up on the right the three columns of numbers centered under the column headings.  
+
+You will then repeat the traversing with the list iterator, but this time sum up the random integer field.  You will then calculate and print the labeled sum, mean (average to 2 decimal places), range (difference between highest and lowest random integer fields), median (middle random integer value), and a random java integer from a random spot from your linked list of random number (get a random index number for your linked list with random(), then look up the java integer at that spot in your linked  list and print both data fields) - all without using your input how many variable, but using linked list methods.  
+
+You will print out the class definition code with documentation, the program source code with documentation (4 - 5 line paragraph explaining program with documentation, and at least 5 lines of explanations throughout program), and the 2 sample runs using the following number of nodes. 
+
+1st run: 5 nodes
+2nd run: 25 nodes
